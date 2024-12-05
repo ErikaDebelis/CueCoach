@@ -1,18 +1,19 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\Portfolio\\CueCoach\\CueCoach.csproj": {}
+    "C:\\Projects\\Portfolio\\CueCoach\\src\\CueCoach.Models\\CueCoach.Models.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\Portfolio\\CueCoach\\CueCoach.csproj": {
+    "C:\\Projects\\Portfolio\\CueCoach\\src\\CueCoach.Models\\CueCoach.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Portfolio\\CueCoach\\CueCoach.csproj",
-        "projectName": "CueCoach",
-        "projectPath": "C:\\Projects\\Portfolio\\CueCoach\\CueCoach.csproj",
+        "projectUniqueName": "C:\\Projects\\Portfolio\\CueCoach\\src\\CueCoach.Models\\CueCoach.Models.csproj",
+        "projectName": "CueCoach.Models",
+        "projectPath": "C:\\Projects\\Portfolio\\CueCoach\\src\\CueCoach.Models\\CueCoach.Models.csproj",
         "packagesPath": "C:\\Users\\erika\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Portfolio\\CueCoach\\obj\\",
+        "outputPath": "C:\\Projects\\Portfolio\\CueCoach\\src\\CueCoach.Models\\obj\\",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
@@ -45,13 +46,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
+            "Microsoft.Extensions.Logging.Abstractions": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.0, )"
             },
-            "Swashbuckle.AspNetCore": {
+            "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[13.0.3, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             }
           },
           "imports": [
@@ -66,9 +71,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
